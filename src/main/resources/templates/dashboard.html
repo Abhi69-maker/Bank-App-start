@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Dashboard - Goldencat Bank</title>
+    <title>Dashboard - Abhi Bank</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background: linear-gradient(to right, #000000, #ffd700);
+            background: linear-gradient(to right, #000000, #ff0000);
             color: #ffffff;
             margin: 0;
             padding: 0;
@@ -116,7 +116,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-custom">
-    <a class="navbar-brand" href="#">Goldencat Bank</a>
+    <a class="navbar-brand" href="#">Abhi Bank</a>
     <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="/dashboard">Dashboard</a></li>
         <li class="nav-item"><a class="nav-link" href="/transactions">Transactions</a></li>
@@ -179,7 +179,7 @@
                 <form method="post" action="/transfer" class="form-container">
                     <div class="form-group">
                         <label>Recipient Username:</label>
-                        <input type="text" class="form-control" name="toUsername" required />
+                        <input type="text" class="form-control" name="toUserName" required />
                     </div>
                     <div class="form-group">
                         <label>Amount:</label>
